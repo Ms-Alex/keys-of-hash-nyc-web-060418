@@ -3,9 +3,10 @@ class Hash
     # code goes here
     arr = []
     
-    arguments.each do |arg|
+    arguments.each do |argument|
       collect do |key, value|
-        arr << value
+        arr << value if value == argument
+        
       end
     end
     arr
