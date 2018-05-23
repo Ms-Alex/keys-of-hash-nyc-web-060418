@@ -8,7 +8,6 @@ class Hash
         arr << value
       end
     end
-    
     arr
   end
 end
