@@ -3,7 +3,11 @@ class Hash
     # code goes here
     arr = []
     
-    ar
+    arguments.each do |arg|
+      arg.collect do |key, value|
+        arr << value
+      end
+    end
     
     arr
   end
