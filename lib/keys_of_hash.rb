@@ -9,7 +9,7 @@ class Hash
     elsif arguments == "Australia"
       arr = ["sugar glider", "kangaroo", "koala"]
     else
-      arr << hash.keys_of_hash(arguments)
+      arr << Hash.keys_of_hash(arguments)
     end
     
     arr
