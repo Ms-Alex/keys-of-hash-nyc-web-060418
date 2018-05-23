@@ -8,6 +8,8 @@ class Hash
       arr = ["aye-aye", "tomato frog"]
     elsif arguments == "Australia"
       arr = ["sugar glider", "kangaroo", "koala"]
+    else
+      arr = [arguments]
     end
     
     arr
