@@ -4,7 +4,7 @@ class Hash
     arr = []
     
     arguments.each do |arg|
-      arg.collect do |key, value|
+      collect do |key, value|
         arr << value
       end
     end
